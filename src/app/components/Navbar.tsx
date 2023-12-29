@@ -41,7 +41,7 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className='fixed top-0 left-0 bg-white h-20 w-full p-2 select-none'>
+        <nav className='fixed top-0 left-0 bg-white h-20 w-full p-2 select-none z-10'>
             <div className='flex justify-around items-center h-full'>
 
                 {/* Logo View */}
