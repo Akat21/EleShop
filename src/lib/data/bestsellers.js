@@ -1,6 +1,7 @@
 import img1 from '@/lib/assets/Sluchawki-LOGITECH-G733-LIGHTSPEED-Czarny-front-1x-PhotoRoom.png-PhotoRoom.png';
 import img2 from '@/lib/assets/Mysz-STEELSERIES-Aerox-5-WL-Diablo-IV-1-PhotoRoom.png-PhotoRoom.png';
 import img3 from '@/lib/assets/Monitor-ASUS-TUF-Gaming-VG249Q1A-front-skos-prawy-PhotoRoom.png-PhotoRoom.png';
+
 export const data = [{
     "id": 1,
     "name": "Headphones LOGITECH G733 Lightspeed Black",

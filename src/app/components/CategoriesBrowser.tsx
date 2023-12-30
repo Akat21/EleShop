@@ -1,5 +1,6 @@
 "use client"
 import React from 'react'
+import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Swiper as SwiperType} from 'swiper';
 
@@ -9,6 +10,8 @@ import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons
 import { Navigation} from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
+
+import {categories} from '@/lib/data/categories'
 
 const CategoriesBrowser = () => {
     //Swiper Navigation Handling Consts
@@ -27,6 +30,18 @@ const CategoriesBrowser = () => {
         setActiveIndex(swiperRef.current?.activeIndex || 0);
     }
 
+
+    // Map through data and create a Slide component for each item
+    const Slides = categories.map((item, index) => {
+        return (
+            <SwiperSlide key={index} className='flex justify-center border-2 border-slate-200 rounded bg-white min-w-48 p-2 cursor-pointer hover:bg-gray-200 transition-colors'>
+                <div className='flex-column w-full h-full'>
+                    <Image src={item.img} alt='Logo' className='object-contain h-36'/>
+                    <h1 className='text-sm text-center text-slate-500 font-medium mt-4'>{item.name}</h1>
+                </div>
+            </SwiperSlide>
+        )
+      })
 
     return (
         <div className='h-96 w-full px-24 py-20 bg-slate-50'>
@@ -59,17 +74,10 @@ const CategoriesBrowser = () => {
                     clickable: true,
                 }}
                 modules={[Navigation]}
+                allowTouchMove={false}
                 style={{height: '200px'}}
             >
-                <SwiperSlide className='border-2 border-slate-200 rounded bg-white min-w-48'>Slide 1</SwiperSlide>
-                <SwiperSlide className='border-2 border-slate-200 rounded bg-white min-w-48'>Slide 2</SwiperSlide>
-                <SwiperSlide className='border-2 border-slate-200 rounded bg-white min-w-48'>Slide 3</SwiperSlide>
-                <SwiperSlide className='border-2 border-slate-200 rounded bg-white min-w-48'>Slide 4</SwiperSlide>
-                <SwiperSlide className='border-2 border-slate-200 rounded bg-white min-w-48'>Slide 5</SwiperSlide>
-                <SwiperSlide className='border-2 border-slate-200 rounded bg-white min-w-48'>Slide 6</SwiperSlide>
-                <SwiperSlide className='border-2 border-slate-200 rounded bg-white min-w-48'>Slide 7</SwiperSlide>
-                <SwiperSlide className='border-2 border-slate-200 rounded bg-white min-w-48'>Slide 8</SwiperSlide>
-                <SwiperSlide className='border-2 border-slate-200 rounded bg-white min-w-48'>Slide 9</SwiperSlide>
+                {Slides}
             </Swiper>
         </div>
   )
