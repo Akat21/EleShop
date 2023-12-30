@@ -41,15 +41,15 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className='fixed top-0 left-0 bg-white h-20 w-full p-2 select-none z-10'>
+        <nav className='fixed top-0 left-0 bg-white h-20 w-full p-2 select-none z-10 shadow-md'>
             <div className='flex justify-around items-center h-full'>
 
                 {/* Logo View */}
                 <div className='flex items-end'>
-                    <Image src={logo} alt='Logo' width={40} height={40} objectFit='contain' className='transform rotate-12 -mr-1.5'/>
+                    <Image src={logo} alt='Logo' width={40} height={40} className='transform rotate-12 -mr-1.5 object-contain'/>
                     <div>
                         <h1 className={`${kanit.className} text-2xl`}>ELE-SHOP</h1>
-                        <Image src={logoLine} alt='Logo' width={50} height={20} objectFit='contain' className='absolute top-1/2 -translate-y-1/2 transform rotate-90 translate-x-7'/>
+                        <Image src={logoLine} alt='Logo' width={50} height={20} className='absolute top-1/2 -translate-y-1/2 transform rotate-90 translate-x-7 object-contain'/>
                     </div>
                 </div>
 

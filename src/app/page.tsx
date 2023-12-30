@@ -1,7 +1,11 @@
+import CategoriesBrowser from "./components/CategoriesBrowser"
 import TopSlider from "./components/TopSlider"
 
 export default function Home() {
   return (
-      <TopSlider />      
+    <div className="w-full">
+      <TopSlider />    
+      <CategoriesBrowser/>
+    </div>
   )
 }
