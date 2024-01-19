@@ -1,0 +1,97 @@
+import img1 from '@/lib/assets/Mysz-ASUS-ROG-Keris-AimPoint-Czarny-front-skos-PhotoRoom.png-PhotoRoom.png';
+import img2 from '@/lib/assets/Sluchawki-LOGITECH-Gaming-G-Pro-X-front-1x-PhotoRoom.png-PhotoRoom.png';
+import img3 from '@/lib/assets/Kamera-internetowa-LOGITECH-HD-Pro-Webcam-C920-front-PhotoRoom.png-PhotoRoom.png';
+import img4 from '@/lib/assets/Smartfon-XIAOMI-Redmi-12-4-128GB-6.79-90Hz-Czarny-tyl-front-PhotoRoom.png-PhotoRoom.png';
+import img5 from '@/lib/assets/Kamera-AGFAPHOTO-Realimove-CC2700-front-PhotoRoom.png-PhotoRoom.png';
+import img6 from '@/lib/assets/Laptop-ACER-Nitro-5-AN515-58-15-6-IPS-144Hz-1-PhotoRoom.png-PhotoRoom.png';
+import img7 from '@/lib/assets/Monitor-SAMSUNG-Odyssey-G5-front-8-PhotoRoom.png-PhotoRoom.png';
+import img8 from '@/lib/assets/Klawiatura-ASUS-ROG-Azoth-skos-prawy-PhotoRoom.png-PhotoRoom.png';
+
+export const products = [{
+    id: 1,
+    name: "Mouse ASUS ROG Keris AimPoint",
+    price: 299.00,
+    tags: ["mouse", "gaming", "asus"],
+    company: "Asus",
+    model: "Keris AimPoint",
+    rating: 5,
+    description: "Extraordinary gaming mouse with a specially developed 16,000 dpi sensor for fast and precise movements. The ROG Keris AimPoint is equipped with a unique push-fit switch socket design that allows you to easily change the switches to customize click resistance. The mouse also has a durable, lightweight design with a specially developed coating that reduces friction and prevents fingerprints. The ROG Keris AimPoint is equipped with the ROG Micro Switches, which are specially developed for gaming and have a lifespan of 70 million clicks. The switches are also equipped with a gold-plated electro-junction that improves durability and signal transfer. The ROG Keris AimPoint is equipped with a specially developed 16,000 dpi sensor that provides fast and precise movements. The sensor is also equipped with a smart algorithm that automatically calibrates the mouse to provide the best possible performance on any surface.",
+    picture: img1,
+},
+{
+    id: 2,
+    name: "Headphones LOGITECH Gaming G Pro X",
+    price: 499.00,
+    tags: ["headphones", "gaming", "logitech"],
+    company: "Logitech",
+    model: "G Pro X",
+    rating: 5, 
+    description: "The Logitech G PRO X gaming headphones are designed to provide the highest quality sound. The headphones are equipped with 50mm PRO-G drivers that provide a wide frequency range and excellent sound quality. The headphones also have a detachable microphone with Blue VO!CE technology, which provides clear and natural sound. The headphones are also equipped with DTS Headphone:X 2.0 technology, which provides 7.1 surround sound and allows you to hear your opponents' footsteps, shots and other sounds in the game. The headphones also have a durable and lightweight design with a steel frame and aluminum forks. The headphones are also equipped with soft memory foam ear cushions and a padded headband for maximum comfort during long gaming sessions.",
+    picture: img2,
+},
+{
+    id: 3,
+    name: "Webcam LOGITECH HD Pro C920 960-001055",
+    price: 399.00,
+    tags: ["webcam", "logitech"],
+    company: "Logitech",
+    model: "HD Pro C920",
+    rating: 5,
+    description: "The Logitech HD Pro C920 webcam is designed to provide the highest quality video. The webcam is equipped with a Full HD 1080p sensor that provides excellent image quality. The webcam also has a Carl Zeiss lens with autofocus that provides sharp and clear images. The webcam also has a built-in dual stereo microphone that provides clear and natural sound. The webcam also has a durable and lightweight design with a universal clip that allows you to attach the webcam to any monitor or laptop. The webcam is also equipped with a 1.8m USB cable that allows you to connect the webcam to any computer.",
+    picture: img3,
+},
+{
+    id: 4,
+    name: "Smartphone XIAOMI Redmi 12 4/128GB 6.79\" 90Hz Czarny",
+    price: 899.00,
+    tags: ["smartphone", "xiaomi"],
+    company: "Xiaomi",
+    model: "Redmi 12",
+    rating: 5,
+    description: "The Xiaomi Redmi 12 smartphone is designed to provide the highest quality performance. The smartphone is equipped with a MediaTek Dimensity 810 processor that provides excellent performance. The smartphone also has a 6.79\" Full HD+ display with a 90Hz refresh rate that provides smooth and fluid animations. The smartphone also has a 5000mAh battery that provides up to 2 days of battery life. The smartphone also has a durable and lightweight design with a glass back and aluminum frame. The smartphone is also equipped with a 64MP main camera, 8MP ultra-wide camera, 2MP macro camera and 2MP depth sensor.",
+    picture: img4,
+},
+{
+    id: 5,
+    name: "Camera AGFAPHOTO Realimove CC2700",
+    price: 199.00,
+    tags: ["camera", "agfaphoto"],
+    company: "Agfaphoto",
+    model: "Realimove CC2700",
+    rating: 4,
+    description: "The Agfaphoto Realimove CC2700 camera is designed to provide the highest quality photos and videos. The camera is equipped with a 16MP sensor that provides excellent image quality. The camera also has a 2.7\" LCD screen that allows you to view your photos and videos. The camera also has a durable and lightweight design with a rubberized grip that provides a secure grip. The camera is also equipped with a 32GB memory card that allows you to store your photos and videos.",
+    picture: img5,
+},
+{  
+    id: 6,
+    name: "Laptop ACER Nitro 5 AN515-58 15.6\" IPS 144Hz",
+    price: 3999.00,
+    tags: ["laptop", "acer"],
+    company: "Acer",
+    model: "Nitro 5 AN515-58",
+    rating: 5,
+    description: "The Acer Nitro 5 AN515-58 laptop is designed to provide the highest quality performance. The laptop is equipped with an Intel Core i5-11400H processor that provides excellent performance. The laptop also has a 15.6\" Full HD IPS display with a 144Hz refresh rate that provides smooth and fluid animations. The laptop also has a 512GB SSD that provides fast and reliable storage. The laptop also has a durable and lightweight design with a metal lid and aluminum chassis. The laptop is also equipped with a backlit keyboard, which allows you to play games in the dark.",
+    picture: img6,
+},
+{
+    id: 7,
+    name: "Monitor SAMSUNG Odyssey G5",
+    price: 1499.00,
+    tags: ["monitor", "samsung"],
+    company: "Samsung",
+    model: "Odyssey G5",
+    rating: 4,
+    description: "The Samsung Odyssey G5 monitor is designed to provide the highest quality performance. The monitor is equipped with a 27\" QHD VA panel that provides excellent image quality. The monitor also has a 144Hz refresh rate that provides smooth and fluid animations. The monitor also has a 1ms response time that provides fast and responsive gameplay. The monitor also has a durable and lightweight design with a metal stand that provides a secure grip. The monitor is also equipped with a 3-sided frameless design that provides an immersive viewing experience.",
+    picture: img7,
+},
+{
+    id: 8,
+    name: "Keyboard ASUS ROG Azoth",
+    price: 499.00,
+    tags: ["keyboard", "gaming", "asus"],
+    company: "Asus",
+    model: "ROG Azoth",
+    rating: 5,
+    description: "The Asus ROG Azoth keyboard is designed to provide the highest quality performance. The keyboard is equipped with Cherry MX RGB switches that provide excellent tactile feedback. The keyboard also has a durable and lightweight design with an aluminum top plate that provides a secure grip. The keyboard is also equipped with a detachable wrist rest that provides maximum comfort during long gaming sessions. The keyboard is also equipped with Aura Sync RGB lighting that allows you to customize the lighting effects.",
+    picture: img8,
+}]  
