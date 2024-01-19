@@ -22,7 +22,7 @@ const ProductBox: React.FC<ProductType> = ({data}) => {
     const [display, setDisplay] = React.useState("hidden"); 
     return (
         <div className='mb-4'> 
-            <Card className='relative bg-white cursor-pointer' onMouseOver={() => setDisplay("flex")} onMouseOut={() => setDisplay("hidden") }>
+            <Card className='relative bg-white cursor-pointer transition-transform transform hover:scale-105' onMouseOver={() => setDisplay("flex")} onMouseOut={() => setDisplay("hidden")}>
                 <CardMedia component="img" className='h-80 pb-9 pt-4 px-4 object-contain' image={data.picture.src} title="product1"/>
                 <CardActions className={`absolute ${display} bottom-2 left-0 w-full justify-center`}>
                     <button className="flex items-center justify-center bg-blue-500 text-white rounded-md px-6 py-2 h-11 hover:bg-blue-600 transition duration-300">

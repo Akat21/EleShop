@@ -1,6 +1,7 @@
 import CategoriesBrowser from "./components/CategoriesBrowser"
 import TopSlider from "./components/TopSlider"
 import ProductsList from "./components/ProductsList"
+import NewArrivals from "./components/NewArrivals"
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <TopSlider />    
       <CategoriesBrowser/>
       <ProductsList/>
+      <NewArrivals/>
     </div>
   )
 }

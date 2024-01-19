@@ -6,6 +6,7 @@ import img5 from '@/lib/assets/Kamera-AGFAPHOTO-Realimove-CC2700-front-PhotoRoom
 import img6 from '@/lib/assets/Laptop-ACER-Nitro-5-AN515-58-15-6-IPS-144Hz-1-PhotoRoom.png-PhotoRoom.png';
 import img7 from '@/lib/assets/Monitor-SAMSUNG-Odyssey-G5-front-8-PhotoRoom.png-PhotoRoom.png';
 import img8 from '@/lib/assets/Klawiatura-ASUS-ROG-Azoth-skos-prawy-PhotoRoom.png-PhotoRoom.png';
+import img9 from '@/lib/assets/smartphones-PhotoRoom.png-PhotoRoom.png';
 
 export const products = [{
     id: 1,
@@ -94,4 +95,15 @@ export const products = [{
     rating: 5,
     description: "The Asus ROG Azoth keyboard is designed to provide the highest quality performance. The keyboard is equipped with Cherry MX RGB switches that provide excellent tactile feedback. The keyboard also has a durable and lightweight design with an aluminum top plate that provides a secure grip. The keyboard is also equipped with a detachable wrist rest that provides maximum comfort during long gaming sessions. The keyboard is also equipped with Aura Sync RGB lighting that allows you to customize the lighting effects.",
     picture: img8,
+},
+{
+    id: 9,
+    name: "Smartphone Samsung Galaxy Note 23 Ultra",
+    price: 4999.00,
+    tags: ["smartphone", "samsung"],
+    company: "Samsung",
+    model: "Galaxy Note 23 Ultra",
+    rating: 5,
+    description: "The Samsung Galaxy Note 23 Ultra smartphone is designed to provide the highest quality performance. The smartphone is equipped with a Qualcomm Snapdragon 888 processor that provides excellent performance. The smartphone also has a 6.9\" QHD+ display with a 120Hz refresh rate that provides smooth and fluid animations. The smartphone also has a 5000mAh battery that provides up to 2 days of battery life. The smartphone also has a durable and lightweight design with a glass back and aluminum frame. The smartphone is also equipped with a 108MP main camera, 12MP ultra-wide camera, 12MP telephoto camera and 12MP depth sensor.",
+    picture: img9,
 }]  
