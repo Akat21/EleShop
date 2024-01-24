@@ -19,11 +19,11 @@ const Discount = () => {
     })
 
     return (
-        <div className='flex px-24 pb-20 bg-slate-50'>
-            <div className='flex flex-row justify-between h-96 w-full bg-yellow-200 shadow-md rounded-sm'>
-                <div className='px-20 py-20'>
+        <div className='flex px-4 md:px-24 pb-20 bg-slate-50'>
+            <div className='flex flex-col xl:flex-row justify-between h-full xl:h-96 w-full bg-yellow-200 shadow-md rounded-sm'>
+                <div className='px-4 md:px-20 py-4 md:py-20'>
                     <div className='flex items-center text-rose-500 mb-5'>
-                        <FontAwesomeIcon icon={faStar} width={20} height={20} className='text-lg'/>
+                        <FontAwesomeIcon icon={faStar} width={20} height={20} className='text-xl'/>
                         <h1 className='text-sm ml-1.5 font-semibold'>Weekend Discount</h1>
                     </div>
                     <h1 className='font-medium text-3xl leading-snug mb-8'>Up To 40% Off On Digital Items</h1>
@@ -33,7 +33,7 @@ const Discount = () => {
                         <FontAwesomeIcon icon={faArrowRight} width={12} height={12} className='flex mt-0.5'/>
                     </button>
                 </div>
-                <div className='w-96 mr-10'>
+                <div className='w-full xl:w-96 mr-10'>
                     <Swiper
                         effect={'flip'}
                         autoplay={{
@@ -43,7 +43,7 @@ const Discount = () => {
                         modules={[EffectFlip, Autoplay, Navigation, Pagination]}
                         allowTouchMove={false}
                         loop={true}
-                        className='h-full w-96'
+                        className='h-full w-full xl:w-96'
                     >
                         {/* Slides Init */}
                         {Slides}

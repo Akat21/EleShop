@@ -2,6 +2,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { useMediaQuery } from 'react-responsive';
 import Slide from './Slide';
 
 // Import Swiper styles
@@ -16,6 +17,8 @@ const backgroundImages = [bg1, bg2, bg3]
 import {data} from '@/lib/data/bestsellers.js'
 
 const TopSlider = () => {
+  // Responsive breakpoints
+  const hideArrows = useMediaQuery({ query: '(max-width: 1024px)' })
 
   // Map through data and create a Slide component for each item
   const Slides = data.map((item, index) => {
@@ -31,7 +34,7 @@ const TopSlider = () => {
     {/* Swiper Init */}
       <Swiper
         spaceBetween={0}
-        navigation={true}
+        navigation={!hideArrows ? true : false}
         pagination={{
           clickable: true,
         }} 
@@ -41,7 +44,7 @@ const TopSlider = () => {
         }}
         modules={[Autoplay, Pagination, Navigation]}
         allowTouchMove={false}
-        style={{height: '500px', width: '100%'}}
+        className='h-[900px] md:h-[500px]'
       >
         {/* Slides Init */}
         {Slides}

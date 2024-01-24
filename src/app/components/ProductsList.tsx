@@ -14,7 +14,7 @@ const ProductsList = () => {
     })
 
     return (
-        <div className='px-24 py-20 bg-slate-50'>
+        <div className='px-4 md:px-24 py-20 bg-slate-50'>
             <div className='flex flex-row justify-between items-center mb-12'>
                 <h1 className='text-3xl font-semibold'>Featured Products</h1>
                 <button className="flex items-center justify-center bg-blue-500 text-white rounded-md px-6 py-2 h-11 hover:bg-blue-600 transition duration-300">

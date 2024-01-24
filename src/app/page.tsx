@@ -6,6 +6,7 @@ import Discount from "./components/Discount"
 import Informations from "./components/Informations"
 import Contact from "./components/Contact"
 import MainFooter from "./components/MainFooter"
+import BottomFooter from "./components/BottomFooter"
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Informations />
       <Contact />
       <MainFooter />
+      <BottomFooter />
     </div>
   )
 }
