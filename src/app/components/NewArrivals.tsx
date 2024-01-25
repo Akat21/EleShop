@@ -37,7 +37,7 @@ const NewArrivals = () => {
                     </CardActions>
                     <CardMedia component="img" className='flex h-full w-full mt-7' image={products[8].picture.src} title="product1"/>
                 </Card>
-                <div className='w-full lg:w-7/12 grid grid-rows-3 gap-4 mt-4 lg:ml-6'>
+                <div className='w-full lg:w-7/12 grid grid-rows-3 gap-4 mt-4 lg:mt-0 lg:ml-6'>
                     {NewProducts}
                 </div>
             </div>
