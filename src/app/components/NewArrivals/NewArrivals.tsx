@@ -25,8 +25,8 @@ const NewArrivals = () => {
                             <FontAwesomeIcon icon={faArrowRight} width={12} height={12} className='flex mt-0.5'/>
                     </button>
             </div>  
-            <div className='flex flex-col lg:flex-row bg-slate-200'>
-                <Card className='relative flex pt-10 w-full lg:w-5/12 bg-slate-200'>
+            <div className='flex flex-col lg:flex-row '>
+                <div className='relative flex pt-10 w-full shadow-lg lg:w-5/12 bg-slate-200'>
                     <div className='absolute flex-col w-full justify-start p-7 top-0 left-0'>
                         <h1 className='text-2xl font-semibold mb-8'>{products[8].name}</h1>
                         <button className="flex items-center justify-center bg-blue-500 text-white rounded-lg px-6 py-2 h-11 w-36 hover:bg-blue-600 transition duration-300">
@@ -35,7 +35,7 @@ const NewArrivals = () => {
                         </button>
                     </div>
                     <Image className='flex h-full w-full mt-7' width={120} height={120} src={products[8].picture} alt="product1" loading='eager'/>
-                </Card>
+                </div>
                 <div className='w-full lg:w-7/12 grid grid-rows-3 gap-4 mt-4 lg:mt-0 lg:ml-6'>
                     {NewProducts}
                 </div>
