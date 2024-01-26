@@ -10,7 +10,7 @@ export const data = [{
     "company": "Logitech",
     "model": "G733",
     "description": "Wireless Gaming Headset with Suspension Headband, LIGHTSPEED Wireless, Blue VO!CE mic Technology and PRO-G Audio Drivers - Black",
-    "picture": img1,
+    "picture": '/assets/Sluchawki-LOGITECH-G733-LIGHTSPEED-Czarny-front-1x-PhotoRoom.png-PhotoRoom.png',
 },
 {
     "id": 2,
@@ -20,7 +20,7 @@ export const data = [{
     "company": "Steelseries",
     "model": "Aerox 5",
     "description": "Wireless Gaming Mouse, 18,000 CPI TrueMove Air Optical Sensor, Ultra-lightweight Water Resistant Design, 200 Hour Battery Life, Compatible with PC and Mac - Black",
-    "picture": img2,
+    "picture": '/assets/Mysz-STEELSERIES-Aerox-5-WL-Diablo-IV-1-PhotoRoom.png-PhotoRoom.png',
 }
 ,
 {
@@ -31,5 +31,5 @@ export const data = [{
     "company": "Asus",
     "model": "VG249Q1A",
     "description": "Monitor ASUS TUF Gaming VG249Q1A 23.8\" 1920x1080px IPS 165Hz 1 ms 250 cd/m2 1000:1 16:9 2xHDMI DisplayPort FreeSync G-Sync Compatible HDR10",
-    "picture": img3,
+    "picture": '/assets/Monitor-ASUS-TUF-Gaming-VG249Q1A-front-skos-prawy-PhotoRoom.png-PhotoRoom.png',
 }]

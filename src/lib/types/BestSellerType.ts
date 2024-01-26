@@ -9,6 +9,6 @@ export interface BestSellerType {
         company: string,
         model: string,
         description: string,
-        picture: StaticImageData,
+        picture: string,
     }
 }

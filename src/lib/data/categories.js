@@ -11,45 +11,45 @@ import keyboardImg from "@/lib/assets/keyboard.png";
 export const categories = [{
     id: 1,
     name: "Laptop",
-    img: laptopImg
+    img: '/assets/laptop-glyph-two-color-icon-vector-PhotoRoom.png-PhotoRoom.png'
 },
 {
     id: 2,
     name: "Phone",
-    img: phoneImg
+    img: '/assets/phone.png'
 },
 {
     id: 3,
     name: "Watch",
-    img: watchImg
+    img: '/assets/apple-watch_blue_icon-icons.com_55329.png'
 },
 {
     id: 4,
     name: "Camera",
-    img: cameraImg
+    img: '/assets/camera.png'
 },
 {
     id: 5,
     name: "Headphones",
-    img: headphoneImg
+    img: '/assets/headphones.png'
 },
 {
     id: 6,
     name: "Video Game",
-    img: videoGameImg
+    img: '/assets/video-game.png'
 },
 {
     id: 7,
     name: "Mouse",
-    img: mouseImg
+    img: '/assets/mouse.png'
 },
 {
     id: 8,
     name: "Monitor",
-    img: monitorImg
+    img: '/assets/monitor.png'
 },
 {
     id: 9,
     name: "Keyboard",
-    img: keyboardImg
+    img: '/assets/keyboard.png'
 }]

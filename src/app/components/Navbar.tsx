@@ -46,10 +46,10 @@ export default function Navbar() {
 
                 {/* Logo View */}
                 <div className='flex items-end'>
-                    <Image src={logo} alt='Logo' width={40} height={40} className='transform rotate-12 -mr-1.5 object-contain'/>
+                    <Image src='/assets/thunder-logo.png' alt='Logo' width={40} height={40} className='transform rotate-12 -mr-1.5 object-contain' loading='eager'/>
                     <div>
                         <h1 className={`${kanit.className} text-2xl`}>ELE-SHOP</h1>
-                        <Image src={logoLine} alt='Logo' width={50} height={20} className='absolute top-1/2 -translate-y-1/2 transform rotate-90 translate-x-7 object-contain'/>
+                        <Image src='/assets/line.png' alt='Logo' width={50} height={20} className='absolute top-1/2 -translate-y-1/2 transform rotate-90 translate-x-7 object-contain' loading='eager'/>
                     </div>
                 </div>
 

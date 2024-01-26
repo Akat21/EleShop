@@ -1,12 +1,12 @@
-import CategoriesBrowser from "./components/CategoriesBrowser"
-import TopSlider from "./components/TopSlider"
-import ProductsList from "./components/ProductsList"
-import NewArrivals from "./components/NewArrivals"
-import Discount from "./components/Discount"
-import Informations from "./components/Informations"
-import Contact from "./components/Contact"
-import MainFooter from "./components/MainFooter"
-import BottomFooter from "./components/BottomFooter"
+import CategoriesBrowser from "./components/Categories/CategoriesBrowser"
+import TopSlider from "./components/TopSlider/TopSlider"
+import ProductsList from "./components/Products/ProductsList"
+import NewArrivals from "./components/NewArrivals/NewArrivals"
+import Discount from "./components/Info/Discount"
+import Informations from "./components/Info/Informations"
+import Contact from "./components/Info/Contact"
+import MainFooter from "./components/Footer/MainFooter"
+import BottomFooter from "./components/Footer/BottomFooter"
 
 export default function Home() {
   return (
